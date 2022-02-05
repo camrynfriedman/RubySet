@@ -1,1 +1,0 @@
-To run the game of Set, please select Game.rb from the list of files within the folder. In a terminal window, run "ruby Game.rb" and follow the instructions in the window. Each card is colored and has the shape, shade, and number are labeled. Please make sure to input values as described in the instructions.
