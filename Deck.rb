@@ -1,30 +1,31 @@
+require 'colorize'
+require_relative 'Card.rb'
 class Deck
-
+    attr_accessor :cards
 
     def initialize
-        deck = []
-        symbols = ["squiggle", "diamond", "oval"]
-        colors = ["red", "green", "blue"]
+        @cards = []
+        symbols = ["oval", "squiggle", "diamond"]
+        colors = ["red", "purple", "green"]
         numSymbols = [1, 2, 3]
         shades = ["filled", "striped", "open"]
 
+        #loop through each aspect of a card to create
+        #deck of 81 unique cards
         for i in symbols
             for j in colors
                 for k in numSymbols
                     for l in shades
-                        deck << Card.new(i, j, k, l)
+                        @cards << Card.new(i, j, k, l)
                     end
                 end
             end
         end
     end
 
-    deck1 = Deck.new()
-    puts deck1
-
     def dealCard
         #pop off array
-
+        @cards.pop
     end
 end
 

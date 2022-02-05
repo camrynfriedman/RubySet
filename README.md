@@ -1,3 +1,1 @@
-# 3901-Project-2
-
-This is a set game. I never play a set game before, so I don't really know what are the correct rules, my rules maynot be correct, but the general rules should be the same as the mainstream set game.
+To run the game of Set, please select Game.rb from the list of files within the folder. In a terminal window, run "ruby Game.rb" and follow the instructions in the window. Each card is colored and has the shape, shade, and number are labeled. Please make sure to input values as described in the instructions.
